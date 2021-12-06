@@ -1,4 +1,4 @@
-const MOVIEDB_API_KEY = process.env.BOT_TOKEN
+const MOVIEDB_API_KEY = process.env.API_KEY
 
 
 const express = require('express');
