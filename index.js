@@ -10,7 +10,8 @@ app.get('/api_key', function(req, res) {
     });
 });
   
-// Setting the server to listen at port 3000
-app.listen(3000, function(req, res) {
+var port = process.env.PORT || 80
+
+app.listen(port, function(req, res) {
   console.log("Server is running at port 3000");
 });
